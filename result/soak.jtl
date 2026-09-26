@@ -1,0 +1,810 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1790446662375,570,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,1,5,https://blazedemo.com/,563,0,245
+1790446658416,570,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,1,5,null,563,3960,245
+1790446669117,388,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,2,8,https://blazedemo.com/reserve.php,367,0,0
+1790446662946,388,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,2,8,null,367,6171,0
+1790446671792,462,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,2,9,https://blazedemo.com/,460,0,161
+1790446668393,462,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,2,9,null,460,3400,161
+1790446676569,337,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7397,432,2,10,https://blazedemo.com/reserve.php,308,0,0
+1790446672255,337,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7397,432,2,10,null,308,4314,0
+1790446680907,295,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,3,12,https://blazedemo.com/purchase.php,279,0,0
+1790446669505,295,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,3,12,null,279,11408,0
+1790446682052,348,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,3,13,https://blazedemo.com/purchase.php,336,0,0
+1790446676906,348,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,3,13,null,336,5150,0
+1790446682229,602,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,3,13,https://blazedemo.com/,600,0,273
+1790446678391,602,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,3,13,null,600,3839,273
+1790446685094,351,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,641,3,13,https://blazedemo.com/confirmation.php,345,0,0
+1790446681209,351,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,641,3,13,null,345,3886,0
+1790446687394,272,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,638,3,12,https://blazedemo.com/confirmation.php,266,0,0
+1790446682404,272,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,638,3,12,null,266,4994,0
+1790446688763,265,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,4,14,https://blazedemo.com/,259,0,0
+1790446685446,265,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,4,14,null,259,3318,0
+1790446688817,321,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7397,432,4,14,https://blazedemo.com/reserve.php,299,0,0
+1790446682832,321,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7397,432,4,14,null,299,5985,0
+1790446691087,516,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,4,14,https://blazedemo.com/,504,0,202
+1790446688392,516,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,4,14,null,504,2696,202
+1790446692368,269,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,4,14,https://blazedemo.com/,261,0,0
+1790446687670,269,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,4,14,null,261,4698,0
+1790446695339,303,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,4,14,https://blazedemo.com/reserve.php,287,0,0
+1790446689029,303,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,4,14,null,287,6311,0
+1790446696863,352,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7373,429,4,14,https://blazedemo.com/reserve.php,342,0,0
+1790446691604,352,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7373,429,4,14,null,342,5259,0
+1790446697828,324,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,4,14,https://blazedemo.com/purchase.php,305,0,0
+1790446689139,324,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,4,14,null,305,8690,0
+1790446699007,360,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7397,432,5,16,https://blazedemo.com/reserve.php,348,0,0
+1790446692637,360,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7397,432,5,16,null,348,6370,0
+1790446700359,328,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,644,5,15,https://blazedemo.com/confirmation.php,321,0,0
+1790446698153,328,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,644,5,15,null,321,2206,0
+1790446703105,602,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,15,https://blazedemo.com/,596,0,237
+1790446698390,602,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,15,null,596,4715,237
+1790446704494,369,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,354,0,0
+1790446699368,369,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,15,null,354,5128,0
+1790446705465,304,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,15,https://blazedemo.com/,296,0,0
+1790446700688,304,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,15,null,296,4779,0
+1790446708793,334,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,645,5,15,https://blazedemo.com/confirmation.php,323,0,0
+1790446704864,334,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,645,5,15,null,323,3930,0
+1790446709458,358,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7373,429,5,15,https://blazedemo.com/reserve.php,347,0,0
+1790446703706,358,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7373,429,5,15,null,347,5753,0
+1790446709619,336,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,324,0,0
+1790446695643,336,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,15,null,324,13976,0
+1790446711612,318,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,15,https://blazedemo.com/,307,0,0
+1790446709128,318,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,15,null,307,2484,0
+1790446711946,357,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,345,0,0
+1790446697216,357,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,15,null,345,14731,0
+1790446713107,329,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7397,432,5,15,https://blazedemo.com/reserve.php,312,0,0
+1790446705770,329,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7397,432,5,15,null,312,7337,0
+1790446713863,359,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,640,5,15,https://blazedemo.com/confirmation.php,349,0,0
+1790446709955,359,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,640,5,15,null,349,3909,0
+1790446715557,345,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,641,5,15,https://blazedemo.com/confirmation.php,335,0,0
+1790446712304,345,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,641,5,15,null,335,3254,0
+1790446716542,342,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,15,https://blazedemo.com/,331,0,0
+1790446714224,342,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,15,null,331,2319,0
+1790446718434,325,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,15,https://blazedemo.com/,319,0,0
+1790446715903,325,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,15,null,319,2531,0
+1790446719826,277,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7385,430,5,15,https://blazedemo.com/reserve.php,270,0,0
+1790446711930,277,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7385,430,5,15,null,270,7896,0
+1790446720923,277,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7357,427,5,15,https://blazedemo.com/reserve.php,266,0,0
+1790446716885,277,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7357,427,5,15,null,266,4039,0
+1790446723809,289,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7385,430,5,15,https://blazedemo.com/reserve.php,276,0,0
+1790446718759,289,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7385,430,5,15,null,276,5050,0
+1790446724795,288,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,273,0,0
+1790446709817,288,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,15,null,273,14979,0
+1790446725467,269,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,259,0,0
+1790446713436,269,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,15,null,259,12032,0
+1790446728147,630,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,629,0,286
+1790446721201,630,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,15,null,629,6947,286
+1790446729021,367,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,638,5,15,https://blazedemo.com/confirmation.php,356,0,0
+1790446725737,367,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,638,5,15,null,356,3285,0
+1790446730078,377,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,643,5,15,https://blazedemo.com/confirmation.php,364,0,0
+1790446725084,377,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,643,5,15,null,364,4994,0
+1790446731526,268,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,15,https://blazedemo.com/,261,0,0
+1790446729389,268,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,15,null,261,2137,0
+1790446732519,332,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,15,https://blazedemo.com/,325,0,0
+1790446730455,332,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,15,null,325,2065,0
+1790446732841,290,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,639,5,15,https://blazedemo.com/confirmation.php,280,0,0
+1790446728778,290,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,639,5,15,null,280,4064,0
+1790446733159,293,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,288,0,0
+1790446724098,293,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,15,null,288,9062,0
+1790446734559,450,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,437,0,174
+1790446720103,450,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,15,null,437,14457,174
+1790446735667,318,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,644,5,15,https://blazedemo.com/confirmation.php,307,0,0
+1790446733453,318,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,644,5,15,null,307,2214,0
+1790446735958,299,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,15,https://blazedemo.com/,283,0,0
+1790446733132,299,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,15,null,283,2827,0
+1790446737133,314,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7381,430,5,15,https://blazedemo.com/reserve.php,299,0,0
+1790446732852,314,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7381,430,5,15,null,299,4281,0
+1790446738131,301,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,15,https://blazedemo.com/confirmation.php,295,0,0
+1790446735010,301,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,15,null,295,3122,0
+1790446739226,355,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,15,https://blazedemo.com/,346,0,0
+1790446735986,355,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,15,null,346,3240,0
+1790446739612,369,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7385,430,5,15,https://blazedemo.com/reserve.php,353,0,0
+1790446731794,369,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7385,430,5,15,null,353,7819,0
+1790446740547,379,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,15,https://blazedemo.com/,369,0,0
+1790446738433,379,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,15,null,369,2114,0
+1790446743594,453,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7381,430,5,15,https://blazedemo.com/reserve.php,439,0,0
+1790446739581,453,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7381,430,5,15,null,439,4013,0
+1790446744024,289,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7397,432,5,15,https://blazedemo.com/reserve.php,270,0,0
+1790446736258,289,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7397,432,5,15,null,270,7766,0
+1790446744721,296,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7357,427,5,15,https://blazedemo.com/reserve.php,285,0,0
+1790446740926,296,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7357,427,5,15,null,285,3795,0
+1790446748674,463,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,454,0,165
+1790446739982,463,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,15,null,454,8693,165
+1790446752400,291,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6719,388,5,15,https://blazedemo.com/purchase.php,280,0,0
+1790446737447,291,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6719,388,5,15,null,280,14953,0
+1790446752438,299,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,290,0,0
+1790446744313,299,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,15,null,290,8126,0
+1790446752789,285,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,636,5,15,https://blazedemo.com/confirmation.php,282,0,0
+1790446749138,285,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,636,5,15,null,282,3651,0
+1790446755033,446,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,16,https://blazedemo.com/purchase.php,425,0,156
+1790446744047,446,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,16,null,425,10987,156
+1790446755709,279,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,638,5,16,https://blazedemo.com/confirmation.php,275,0,0
+1790446752738,279,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,638,5,16,null,275,2972,0
+1790446755996,286,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,16,https://blazedemo.com/,280,0,0
+1790446753075,286,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,16,null,280,2921,0
+1790446756326,296,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,644,5,16,https://blazedemo.com/confirmation.php,285,0,0
+1790446752691,296,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,644,5,16,null,285,3635,0
+1790446756907,312,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,16,https://blazedemo.com/purchase.php,298,0,0
+1790446745017,312,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,16,null,298,11891,0
+1790446758696,270,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,16,https://blazedemo.com/,263,0,0
+1790446755989,270,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,16,null,263,2707,0
+1790446759086,326,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,16,https://blazedemo.com/,317,0,0
+1790446756622,326,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,16,null,317,2465,0
+1790446759700,290,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,634,5,16,https://blazedemo.com/confirmation.php,285,0,0
+1790446755480,290,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,634,5,16,null,285,4221,0
+1790446760953,274,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,17,https://blazedemo.com/confirmation.php,266,0,0
+1790446757220,274,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,17,null,266,3734,0
+1790446761438,666,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,17,https://blazedemo.com/reserve.php,647,0,0
+1790446756282,666,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,17,null,647,5156,0
+1790446763198,602,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,17,https://blazedemo.com/reserve.php,592,0,275
+1790446759413,602,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,17,null,592,3785,275
+1790446764062,308,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,17,https://blazedemo.com/reserve.php,296,0,0
+1790446758966,308,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,17,null,296,5097,0
+1790446764327,339,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,17,https://blazedemo.com/,337,0,0
+1790446759991,339,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,17,null,337,4336,0
+1790446765488,288,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4761,292,5,17,https://blazedemo.com/,284,0,0
+1790446761228,288,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4761,292,5,17,null,284,4261,0
+1790446771281,284,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7385,430,5,18,https://blazedemo.com/reserve.php,275,0,0
+1790446765777,284,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7385,430,5,18,null,275,5504,0
+1790446771556,270,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,18,https://blazedemo.com/reserve.php,263,0,0
+1790446764666,270,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,18,null,263,6890,0
+1790446772504,290,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,19,https://blazedemo.com/purchase.php,281,0,0
+1790446764371,290,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,19,null,281,8134,0
+1790446773151,290,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,19,https://blazedemo.com/purchase.php,283,0,0
+1790446762104,290,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,19,null,283,11049,0
+1790446774701,286,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,19,https://blazedemo.com/purchase.php,279,0,0
+1790446763800,286,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,19,null,279,10902,0
+1790446775054,314,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,641,5,19,https://blazedemo.com/confirmation.php,308,0,0
+1790446772795,314,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,641,5,19,null,308,2260,0
+1790446777465,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,19,https://blazedemo.com/purchase.php,292,0,0
+1790446771826,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,19,null,292,5640,0
+1790446777982,282,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,641,5,19,https://blazedemo.com/confirmation.php,278,0,0
+1790446773443,282,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,641,5,19,null,278,4540,0
+1790446779494,400,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,634,5,20,https://blazedemo.com/confirmation.php,395,0,0
+1790446774988,400,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,634,5,20,null,395,4507,0
+1790446780272,274,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,20,https://blazedemo.com/,268,0,0
+1790446775370,274,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,20,null,268,4902,0
+1790446781246,278,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,20,https://blazedemo.com/,274,0,0
+1790446778265,278,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,20,null,274,2981,0
+1790446781462,266,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,643,5,20,https://blazedemo.com/confirmation.php,259,0,0
+1790446777766,266,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,643,5,20,null,259,3697,0
+1790446782486,258,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4761,292,5,20,https://blazedemo.com/,253,0,0
+1790446779895,258,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4761,292,5,20,null,253,2591,0
+1790446784053,314,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,298,0,0
+1790446771565,314,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,20,null,298,12489,0
+1790446784385,253,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,20,https://blazedemo.com/,249,0,0
+1790446781729,253,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,20,null,249,2656,0
+1790446785961,312,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,20,https://blazedemo.com/reserve.php,288,0,0
+1790446782744,312,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,20,null,288,3217,0
+1790446787095,270,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7357,427,5,20,https://blazedemo.com/reserve.php,258,0,0
+1790446780546,270,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7357,427,5,20,null,258,6549,0
+1790446787265,281,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,644,5,20,https://blazedemo.com/confirmation.php,271,0,0
+1790446784368,281,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,644,5,20,null,271,2898,0
+1790446789289,284,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,274,0,0
+1790446781524,284,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,20,null,274,7766,0
+1790446790033,277,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,269,0,0
+1790446784638,277,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7381,430,5,20,null,269,5396,0
+1790446791502,269,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,20,https://blazedemo.com/,265,0,0
+1790446787547,269,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,20,null,265,3956,0
+1790446792137,281,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,273,0,0
+1790446786273,281,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,20,null,273,5865,0
+1790446794979,319,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,310,0,0
+1790446789574,319,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,20,null,310,5406,0
+1790446795790,270,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,634,5,20,https://blazedemo.com/confirmation.php,264,0,0
+1790446792419,270,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,634,5,20,null,264,3372,0
+1790446797013,440,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,434,0,161
+1790446791772,440,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,20,null,434,5241,161
+1790446798810,279,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,20,https://blazedemo.com/,276,0,0
+1790446796061,279,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,20,null,276,2749,0
+1790446799490,279,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,641,5,20,https://blazedemo.com/confirmation.php,274,0,0
+1790446795299,279,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,641,5,20,null,274,4192,0
+1790446799393,500,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,494,0,219
+1790446787365,500,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,20,null,494,12029,219
+1790446801386,333,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,325,0,0
+1790446790311,333,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,20,null,325,11076,0
+1790446801929,774,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,639,5,20,https://blazedemo.com/confirmation.php,396,0,0
+1790446799894,774,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,639,5,20,null,396,2036,0
+1790446803182,320,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7357,427,5,20,https://blazedemo.com/reserve.php,307,0,0
+1790446799089,320,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7357,427,5,20,null,307,4094,0
+1790446804524,358,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,20,https://blazedemo.com/,351,0,0
+1790446799770,358,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,20,null,351,4755,0
+1790446805449,303,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,20,https://blazedemo.com/,297,0,0
+1790446802704,303,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,20,null,297,2745,0
+1790446805820,323,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,636,5,20,https://blazedemo.com/confirmation.php,310,0,0
+1790446801720,323,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,636,5,20,null,310,4100,0
+1790446809360,421,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7397,432,5,20,https://blazedemo.com/reserve.php,415,0,159
+1790446804883,421,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7397,432,5,20,null,415,4478,159
+1790446810399,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,288,0,0
+1790446803503,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,20,null,288,6897,0
+1790446810407,295,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,282,0,0
+1790446797453,295,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,20,null,282,12955,0
+1790446810729,325,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,20,https://blazedemo.com/,323,0,0
+1790446806144,325,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,20,null,323,4585,0
+1790446812502,283,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,20,https://blazedemo.com/reserve.php,272,0,0
+1790446805752,283,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,20,null,272,6750,0
+1790446813627,313,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,644,5,20,https://blazedemo.com/confirmation.php,307,0,0
+1790446810703,313,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,644,5,20,null,307,2925,0
+1790446813661,296,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,639,5,20,https://blazedemo.com/confirmation.php,288,0,0
+1790446810700,296,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,639,5,20,null,288,2962,0
+1790446815423,508,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7397,432,5,20,https://blazedemo.com/reserve.php,497,0,165
+1790446811054,508,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7397,432,5,20,null,497,4369,165
+1790446815973,334,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,323,0,0
+1790446809782,334,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,20,null,323,6192,0
+1790446817365,556,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,20,https://blazedemo.com/,376,0,0
+1790446813941,556,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,20,null,376,3425,0
+1790446818884,305,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,20,https://blazedemo.com/,298,0,0
+1790446813958,305,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,20,null,298,4926,0
+1790446819759,280,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,645,5,20,https://blazedemo.com/confirmation.php,272,0,0
+1790446816308,280,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,645,5,20,null,272,3454,0
+1790446821878,351,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,335,0,0
+1790446817922,351,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,20,null,335,3956,0
+1790446823486,303,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,20,https://blazedemo.com/,296,0,0
+1790446820042,303,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,20,null,296,3445,0
+1790446824975,640,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7357,427,5,20,https://blazedemo.com/reserve.php,621,0,281
+1790446819189,640,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7357,427,5,20,null,621,5786,281
+1790446826923,313,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,296,0,0
+1790446812785,313,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,20,null,296,14139,0
+1790446827978,381,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,366,0,0
+1790446822229,381,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,20,null,366,5751,0
+1790446828113,356,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,345,0,0
+1790446815931,356,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,20,null,345,12183,0
+1790446829453,327,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,641,5,20,https://blazedemo.com/confirmation.php,314,0,0
+1790446827237,327,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,641,5,20,null,314,2218,0
+1790446831682,352,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,634,5,20,https://blazedemo.com/confirmation.php,348,0,0
+1790446828361,352,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,634,5,20,null,348,3322,0
+1790446831549,530,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,361,0,0
+1790446823790,530,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,20,null,361,7760,0
+1790446832604,376,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,634,5,20,https://blazedemo.com/confirmation.php,368,0,0
+1790446828470,376,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,634,5,20,null,368,4135,0
+1790446833355,349,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,20,https://blazedemo.com/,336,0,0
+1790446829782,349,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,20,null,336,3573,0
+1790446835207,360,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,20,https://blazedemo.com/,350,0,0
+1790446832035,360,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,20,null,350,3171,0
+1790446835468,357,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,20,https://blazedemo.com/,348,0,0
+1790446832981,357,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,20,null,348,2486,0
+1790446838610,359,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,348,0,0
+1790446832080,359,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,20,null,348,6531,0
+1790446839689,339,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,20,https://blazedemo.com/purchase.php,319,0,0
+1790446825615,339,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,20,null,319,14075,0
+1790446839748,380,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,362,0,0
+1790446833705,380,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,20,null,362,6044,0
+1790446839846,743,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7357,427,5,20,https://blazedemo.com/reserve.php,584,0,0
+1790446835567,743,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7357,427,5,20,null,584,4281,0
+1790446840617,707,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7381,430,5,20,https://blazedemo.com/reserve.php,390,0,0
+1790446835825,707,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7381,430,5,20,null,390,4793,0
+1790446842178,346,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,649,5,20,https://blazedemo.com/confirmation.php,336,0,0
+1790446838970,346,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,649,5,20,null,336,3209,0
+1790446844871,346,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,641,5,21,https://blazedemo.com/confirmation.php,332,0,0
+1790446840029,346,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,641,5,21,null,332,4843,0
+1790446846776,281,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,21,https://blazedemo.com/,273,0,0
+1790446842525,281,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,21,null,273,4251,0
+1790446847920,302,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,21,https://blazedemo.com/purchase.php,294,0,0
+1790446840590,302,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,21,null,294,7332,0
+1790446848614,333,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,21,https://blazedemo.com/purchase.php,320,0,0
+1790446841324,333,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,21,null,320,7292,0
+1790446848632,386,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,21,https://blazedemo.com/,380,0,0
+1790446845218,386,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,21,null,380,3415,0
+1790446850486,394,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,22,https://blazedemo.com/purchase.php,380,0,0
+1790446840128,394,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,22,null,380,10360,0
+1790446852096,265,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7397,432,5,22,https://blazedemo.com/reserve.php,261,0,0
+1790446847057,265,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7397,432,5,22,null,261,5039,0
+1790446852111,327,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,644,5,22,https://blazedemo.com/confirmation.php,313,0,0
+1790446848949,327,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,644,5,22,null,313,3163,0
+1790446852575,327,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,643,5,22,https://blazedemo.com/confirmation.php,317,0,0
+1790446848224,327,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,643,5,22,null,317,4352,0
+1790446854978,298,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,647,5,22,https://blazedemo.com/confirmation.php,292,0,0
+1790446850882,298,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,647,5,22,null,292,4097,0
+1790446855381,283,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7357,427,5,22,https://blazedemo.com/reserve.php,268,0,0
+1790446849019,283,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7357,427,5,22,null,268,6362,0
+1790446856887,323,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,23,https://blazedemo.com/,319,0,0
+1790446852439,323,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,23,null,319,4449,0
+1790446857007,279,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,23,https://blazedemo.com/,276,0,0
+1790446852903,279,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,23,null,276,4104,0
+1790446858106,296,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,23,https://blazedemo.com/,290,0,0
+1790446855277,296,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,23,null,290,2829,0
+1790446862218,388,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,24,https://blazedemo.com/purchase.php,375,0,0
+1790446855664,388,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,24,null,375,6555,0
+1790446862333,934,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7373,429,5,24,https://blazedemo.com/reserve.php,731,0,360
+1790446857286,934,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7373,429,5,24,null,731,5047,360
+1790446863810,382,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,24,https://blazedemo.com/purchase.php,377,0,0
+1790446852361,382,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,24,null,377,11450,0
+1790446864643,297,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,24,https://blazedemo.com/reserve.php,287,0,0
+1790446857211,297,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,24,null,287,7432,0
+1790446865300,764,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,24,https://blazedemo.com/reserve.php,748,0,250
+1790446858402,764,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,24,null,748,6898,250
+1790446865715,368,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,639,5,24,https://blazedemo.com/confirmation.php,357,0,0
+1790446862607,368,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,639,5,24,null,357,3109,0
+1790446868187,739,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,369,0,0
+1790446866084,739,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,369,2103,0
+1790446871748,975,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,355,0,0
+1790446863267,975,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,25,null,355,8483,0
+1790446868984,3894,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,644,5,25,https://blazedemo.com/confirmation.php,384,0,0
+1790446864193,3894,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,644,5,25,null,384,4793,0
+1790446873129,370,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,350,0,0
+1790446868926,370,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7381,430,5,25,null,350,4204,0
+1790446875749,296,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,643,5,25,https://blazedemo.com/confirmation.php,281,0,0
+1790446872725,296,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,643,5,25,null,281,3025,0
+1790446876767,669,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,654,0,315
+1790446864940,669,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,654,11829,315
+1790446877010,941,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,798,0,299
+1790446872880,941,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,798,4130,299
+1790446880088,539,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,399,0,0
+1790446866064,539,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,399,14025,0
+1790446880387,1011,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,392,0,0
+1790446876046,1011,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,392,4341,0
+1790446881504,953,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,803,0,0
+1790446873500,953,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,25,null,803,8005,0
+1790446881580,880,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,643,5,25,https://blazedemo.com/confirmation.php,864,0,0
+1790446877438,880,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,643,5,25,null,864,4143,0
+1790446884313,336,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,634,5,25,https://blazedemo.com/confirmation.php,326,0,0
+1790446880628,336,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,634,5,25,null,326,3686,0
+1790446884627,289,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7397,432,5,25,https://blazedemo.com/reserve.php,272,0,0
+1790446877951,289,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7397,432,5,25,null,272,6677,0
+1790446885053,298,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,282,0,0
+1790446881398,298,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7357,427,5,25,null,282,3655,0
+1790446886520,348,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,330,0,0
+1790446882461,348,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,330,4059,0
+1790446886382,522,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,644,5,25,https://blazedemo.com/confirmation.php,513,0,155
+1790446882458,522,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,644,5,25,null,513,3925,155
+1790446887639,332,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,25,https://blazedemo.com/,310,0,0
+1790446884650,332,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,25,null,310,2989,0
+1790446889674,332,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,320,0,0
+1790446886906,332,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,320,2769,0
+1790446892232,397,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,378,0,0
+1790446886868,397,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,25,null,378,5364,0
+1790446892678,410,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,397,0,0
+1790446885351,410,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,25,null,397,7328,0
+1790446893399,534,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,530,0,0
+1790446884917,534,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,530,8484,0
+1790446894723,314,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,293,0,0
+1790446887971,314,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,25,null,293,6752,0
+1790446896563,748,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,25,https://blazedemo.com/confirmation.php,579,0,0
+1790446893089,748,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,25,null,579,3475,0
+1790446897923,734,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,734,0,0
+1790446890007,734,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7357,427,5,25,null,734,7916,0
+1790446898777,398,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,634,5,25,https://blazedemo.com/confirmation.php,392,0,0
+1790446893935,398,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,634,5,25,null,392,4843,0
+1790446900389,303,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,293,0,0
+1790446897312,303,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,293,3077,0
+1790446900406,338,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,317,0,0
+1790446892629,338,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,317,7779,0
+1790446902808,277,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,270,0,0
+1790446899176,277,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,270,3633,0
+1790446904106,305,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,639,5,25,https://blazedemo.com/confirmation.php,301,0,0
+1790446900746,305,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,639,5,25,null,301,3362,0
+1790446904297,291,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,282,0,0
+1790446898657,291,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,25,null,282,5641,0
+1790446906490,365,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,359,0,0
+1790446904413,365,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,359,2078,0
+1790446907055,313,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,300,0,0
+1790446900692,313,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,25,null,300,6363,0
+1790446907936,287,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,287,0,0
+1790446904589,287,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,645,5,25,null,287,3348,0
+1790446909736,302,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,290,0,0
+1790446903086,302,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7373,429,5,25,null,290,6650,0
+1790446909777,302,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,294,0,0
+1790446895037,302,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,294,14741,0
+1790446910357,257,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,254,0,0
+1790446908224,257,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,254,2133,0
+1790446912532,323,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,306,0,0
+1790446907368,323,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,25,null,306,5165,0
+1790446913193,326,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,640,5,25,https://blazedemo.com/confirmation.php,313,0,0
+1790446910080,326,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,640,5,25,null,313,3114,0
+1790446913984,295,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7397,432,5,25,https://blazedemo.com/reserve.php,284,0,0
+1790446906856,295,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7397,432,5,25,null,284,7129,0
+1790446916327,345,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,333,0,0
+1790446910614,345,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7373,429,5,25,null,333,5713,0
+1790446916879,344,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,644,5,25,https://blazedemo.com/confirmation.php,329,0,0
+1790446912856,344,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,644,5,25,null,329,4024,0
+1790446918120,365,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,25,https://blazedemo.com/,352,0,0
+1790446913520,365,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,25,null,352,4600,0
+1790446920918,283,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,273,0,0
+1790446910038,283,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,273,10881,0
+1790446921071,288,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,281,0,0
+1790446914280,288,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,281,6792,0
+1790446921218,416,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,412,0,0
+1790446917224,416,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,412,3994,0
+1790446922790,284,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,282,0,0
+1790446918485,284,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,25,null,282,4305,0
+1790446924468,327,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,651,5,25,https://blazedemo.com/confirmation.php,313,0,0
+1790446921202,327,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,651,5,25,null,313,3268,0
+1790446926024,347,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,334,0,0
+1790446921360,347,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,645,5,25,null,334,4665,0
+1790446926136,349,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,338,0,0
+1790446916672,349,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,25,null,338,9464,0
+1790446926875,322,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,319,0,0
+1790446924797,322,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,319,2078,0
+1790446929320,449,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,430,0,154
+1790446921634,449,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,25,null,430,7686,154
+1790446930034,290,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,279,0,0
+1790446926372,290,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,279,3662,0
+1790446929893,432,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,424,0,157
+1790446923074,432,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,424,6821,157
+1790446930368,268,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,641,5,25,https://blazedemo.com/confirmation.php,261,0,0
+1790446926485,268,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,641,5,25,null,261,3884,0
+1790446931675,329,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,312,0,0
+1790446927197,329,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,25,null,312,4478,0
+1790446933494,290,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,280,0,0
+1790446930637,290,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,280,2857,0
+1790446934221,291,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,643,5,26,https://blazedemo.com/confirmation.php,284,0,0
+1790446930327,291,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,643,5,26,null,284,3895,0
+1790446934873,306,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7381,430,5,26,https://blazedemo.com/reserve.php,289,0,0
+1790446930324,306,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7381,430,5,26,null,289,4549,0
+1790446937386,351,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4761,292,5,26,https://blazedemo.com/,349,0,0
+1790446934513,351,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4761,292,5,26,null,349,2873,0
+1790446940106,306,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,27,https://blazedemo.com/reserve.php,294,0,0
+1790446933784,306,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,27,null,294,6323,0
+1790446940581,290,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,27,https://blazedemo.com/purchase.php,281,0,0
+1790446929769,290,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,27,null,281,10813,0
+1790446941058,484,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,27,https://blazedemo.com/purchase.php,478,0,169
+1790446932004,484,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,27,null,478,9056,169
+1790446944113,326,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,27,https://blazedemo.com/confirmation.php,319,0,0
+1790446940873,326,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,27,null,319,3240,0
+1790446944130,327,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,644,5,27,https://blazedemo.com/confirmation.php,316,0,0
+1790446941544,327,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,644,5,27,null,316,2586,0
+1790446944565,281,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,27,https://blazedemo.com/reserve.php,275,0,0
+1790446937737,281,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,27,null,275,6827,0
+1790446946775,360,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,28,https://blazedemo.com/,360,0,0
+1790446944440,360,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,28,null,360,2335,0
+1790446947028,341,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,28,https://blazedemo.com/,338,0,0
+1790446944459,341,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,28,null,338,2569,0
+1790446947118,578,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,28,https://blazedemo.com/purchase.php,567,0,202
+1790446935179,578,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,28,null,567,11939,202
+1790446948898,975,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,28,https://blazedemo.com/purchase.php,963,0,639
+1790446940413,975,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,28,null,963,8487,639
+1790446951122,296,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,641,5,27,https://blazedemo.com/confirmation.php,288,0,0
+1790446947697,296,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,641,5,27,null,288,3427,0
+1790446952533,353,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5784,634,5,28,https://blazedemo.com/confirmation.php,334,0,0
+1790446949875,353,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5784,634,5,28,null,334,2659,0
+1790446952594,350,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7357,427,5,28,https://blazedemo.com/reserve.php,331,0,0
+1790446947369,350,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7357,427,5,28,null,331,5227,0
+1790446952690,510,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,28,https://blazedemo.com/purchase.php,407,0,0
+1790446944846,510,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,28,null,407,7847,0
+1790446953800,319,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,28,https://blazedemo.com/reserve.php,301,0,0
+1790446947135,319,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,28,null,301,6667,0
+1790446955773,366,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,27,https://blazedemo.com/,354,0,0
+1790446951419,366,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,27,null,354,4355,0
+1790446956760,341,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,336,0,0
+1790446952887,341,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,336,3873,0
+1790446957160,292,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,644,5,25,https://blazedemo.com/confirmation.php,288,0,0
+1790446953202,292,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,644,5,25,null,288,3959,0
+1790446958218,291,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,281,0,0
+1790446952945,291,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,281,5275,0
+1790446960228,315,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,25,https://blazedemo.com/,306,0,0
+1790446957453,315,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,25,null,306,2775,0
+1790446961254,354,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,348,0,0
+1790446958511,354,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,645,5,25,null,348,2744,0
+1790446961613,387,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,361,0,0
+1790446957101,387,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7373,429,5,25,null,361,4512,0
+1790446963447,302,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,290,0,0
+1790446956140,302,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7381,430,5,25,null,290,7307,0
+1790446964524,376,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,373,0,0
+1790446960543,376,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,25,null,373,3982,0
+1790446965079,351,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,346,0,0
+1790446961609,351,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,346,3470,0
+1790446966515,333,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,330,0,0
+1790446954120,333,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,25,null,330,12396,0
+1790446970110,461,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,435,0,0
+1790446965430,461,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7373,429,5,25,null,435,4680,0
+1790446970724,339,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,25,https://blazedemo.com/confirmation.php,326,0,0
+1790446966849,339,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,25,null,326,3876,0
+1790446971782,264,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,259,0,0
+1790446963749,264,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,259,8034,0
+1790446974221,294,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,276,0,0
+1790446962000,294,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,25,null,276,12222,0
+1790446974348,290,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5784,644,5,25,https://blazedemo.com/confirmation.php,282,0,0
+1790446972047,290,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5784,644,5,25,null,282,2302,0
+1790446975718,302,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,293,0,0
+1790446970571,302,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,293,5149,0
+1790446975861,370,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,367,0,0
+1790446971064,370,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,367,4797,0
+1790446977659,309,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,651,5,25,https://blazedemo.com/confirmation.php,303,0,0
+1790446974516,309,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,651,5,25,null,303,3144,0
+1790446978087,290,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,284,0,0
+1790446974639,290,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,284,3448,0
+1790446978778,284,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,643,5,25,https://blazedemo.com/confirmation.php,277,0,0
+1790446976022,284,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,643,5,25,null,277,2757,0
+1790446979430,277,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,270,0,0
+1790446964901,277,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,270,14530,0
+1790446982496,266,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,260,0,0
+1790446979063,266,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,260,3433,0
+1790446982585,277,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,270,0,0
+1790446978377,277,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,25,null,270,4208,0
+1790446982614,273,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,266,0,0
+1790446977970,273,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,266,4644,0
+1790446983264,297,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,288,0,0
+1790446976231,297,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,25,null,288,7033,0
+1790446983879,373,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,640,5,25,https://blazedemo.com/confirmation.php,365,0,0
+1790446979708,373,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,640,5,25,null,365,4172,0
+1790446987892,287,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4761,292,5,25,https://blazedemo.com/,281,0,0
+1790446984253,287,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4761,292,5,25,null,281,3639,0
+1790446988755,290,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,283,0,0
+1790446982762,290,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,25,null,283,5993,0
+1790446990006,917,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,504,0,0
+1790446982887,917,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7357,427,5,25,null,504,7119,0
+1790446990711,293,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,286,0,0
+1790446982862,293,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,286,7850,0
+1790446994611,455,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,449,0,166
+1790446983561,455,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,25,null,449,11051,166
+1790446994872,304,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,639,5,25,https://blazedemo.com/confirmation.php,297,0,0
+1790446991005,304,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,639,5,25,null,297,3868,0
+1790446995308,475,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,468,0,169
+1790446988179,475,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,25,null,468,7129,169
+1790446998746,293,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,284,0,0
+1790446990923,293,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,25,null,284,7824,0
+1790446999433,295,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,289,0,0
+1790446995177,295,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,289,4256,0
+1790446999433,316,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,25,https://blazedemo.com/confirmation.php,310,0,0
+1790446995067,316,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,25,null,310,4367,0
+1790447001141,282,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,275,0,0
+1790446995783,282,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,275,5359,0
+1790447001735,303,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,295,0,0
+1790446999040,303,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,645,5,25,null,295,2696,0
+1790447001821,300,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,300,0,0
+1790446999751,300,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,300,2070,0
+1790447002875,456,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,452,0,165
+1790446989045,456,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,452,13831,165
+1790447005103,288,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,25,https://blazedemo.com/,283,0,0
+1790447002039,288,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,25,null,283,3065,0
+1790447005117,307,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7397,432,5,25,https://blazedemo.com/reserve.php,298,0,0
+1790446999728,307,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7397,432,5,25,null,298,5389,0
+1790447005408,291,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,647,5,25,https://blazedemo.com/confirmation.php,284,0,0
+1790447003332,291,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,647,5,25,null,284,2077,0
+1790447006070,301,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,644,5,25,https://blazedemo.com/confirmation.php,295,0,0
+1790447001424,301,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,644,5,25,null,295,4647,0
+1790447007816,280,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7357,427,5,25,https://blazedemo.com/reserve.php,271,0,0
+1790447002121,280,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7357,427,5,25,null,271,5695,0
+1790447008259,284,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,25,https://blazedemo.com/,277,0,0
+1790447005700,284,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,25,null,277,2559,0
+1790447008752,285,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,25,https://blazedemo.com/,281,0,0
+1790447006372,285,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,25,null,281,2380,0
+1790447009831,443,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,25,https://blazedemo.com/reserve.php,437,0,159
+1790447005392,443,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,25,null,437,4439,159
+1790447010911,457,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,453,0,162
+1790447005424,457,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,25,null,453,5488,162
+1790447011706,339,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,25,https://blazedemo.com/reserve.php,330,0,0
+1790447008543,339,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,25,null,330,3163,0
+1790447014192,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6719,388,5,25,https://blazedemo.com/purchase.php,300,0,0
+1790447008096,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6719,388,5,25,null,300,6097,0
+1790447014686,298,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7373,429,5,25,https://blazedemo.com/reserve.php,290,0,0
+1790447009037,298,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7373,429,5,25,null,290,5649,0
+1790447015864,269,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,263,0,0
+1790447011369,269,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,645,5,25,null,263,4496,0
+1790447017523,315,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,645,5,25,https://blazedemo.com/confirmation.php,309,0,0
+1790447014493,315,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,645,5,25,null,309,3032,0
+1790447017835,306,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,298,0,0
+1790447012045,306,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,25,null,298,5791,0
+1790447020657,293,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,634,5,25,https://blazedemo.com/confirmation.php,288,0,0
+1790447018142,293,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,634,5,25,null,288,2516,0
+1790447020835,274,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,25,https://blazedemo.com/,269,0,0
+1790447016134,274,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,25,null,269,4701,0
+1790447020855,296,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,25,https://blazedemo.com/,290,0,0
+1790447017840,296,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,25,null,290,3015,0
+1790447021277,273,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,25,https://blazedemo.com/purchase.php,264,0,0
+1790447014984,273,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,25,null,264,6294,0
+1790447024716,265,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,23,https://blazedemo.com/purchase.php,255,0,0
+1790447010274,265,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,23,null,255,14443,0
+1790447024716,293,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7373,429,5,23,https://blazedemo.com/reserve.php,284,0,0
+1790447021109,293,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7373,429,5,23,null,284,3607,0
+1790447025399,296,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,23,https://blazedemo.com/,290,0,0
+1790447020952,296,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,23,null,290,4447,0
+1790447025573,287,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,23,https://blazedemo.com/reserve.php,276,0,0
+1790447021151,287,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,23,null,276,4422,0
+1790447026152,272,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,651,5,23,https://blazedemo.com/confirmation.php,266,0,0
+1790447021551,272,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,651,5,23,null,266,4602,0
+1790447028490,282,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,634,5,21,https://blazedemo.com/confirmation.php,274,0,0
+1790447024982,282,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,634,5,21,null,274,3508,0
+1790447029297,279,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,21,https://blazedemo.com/,274,0,0
+1790447026425,279,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,21,null,274,2872,0
+1790447030810,298,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7357,427,5,19,https://blazedemo.com/reserve.php,289,0,0
+1790447025695,298,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7357,427,5,19,null,289,5114,0
+1790447032428,261,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,18,https://blazedemo.com/,255,0,0
+1790447028773,261,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,18,null,255,3655,0
+1790447033254,312,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,17,https://blazedemo.com/reserve.php,303,0,0
+1790447029577,312,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,17,null,303,3677,0
+1790447033573,295,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,16,https://blazedemo.com/purchase.php,286,0,0
+1790447025009,295,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,16,null,286,8565,0
+1790447037409,271,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,15,https://blazedemo.com/purchase.php,261,0,0
+1790447025860,271,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,15,null,261,11553,0
+1790447037592,325,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,641,5,15,https://blazedemo.com/confirmation.php,321,0,0
+1790447033869,325,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,641,5,15,null,321,3724,0
+1790447039703,304,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7381,430,5,14,https://blazedemo.com/reserve.php,291,0,0
+1790447032689,304,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7381,430,5,14,null,291,7016,0
+1790447040883,304,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,636,5,14,https://blazedemo.com/confirmation.php,291,0,0
+1790447037684,304,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,636,5,14,null,291,3199,0
+1790447041131,327,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,14,https://blazedemo.com/purchase.php,312,0,0
+1790447031108,327,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,14,null,312,10024,0
+1790447042517,314,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,14,https://blazedemo.com/,310,0,0
+1790447037918,314,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,14,null,310,4598,0
+1790447043238,328,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,14,https://blazedemo.com/purchase.php,320,0,0
+1790447033565,328,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,14,null,320,9673,0
+1790447044929,281,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,14,https://blazedemo.com/,273,0,0
+1790447041188,281,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,14,null,273,3742,0
+1790447045027,333,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,643,5,14,https://blazedemo.com/confirmation.php,321,0,0
+1790447041459,333,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,643,5,14,null,321,3570,0
+1790447046639,343,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,641,5,13,https://blazedemo.com/confirmation.php,333,0,0
+1790447043566,343,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,641,5,13,null,333,3074,0
+1790447047029,303,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,12,https://blazedemo.com/reserve.php,287,0,0
+1790447042831,303,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,12,null,287,4199,0
+1790447047592,301,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4761,292,5,12,https://blazedemo.com/,290,0,0
+1790447045361,301,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4761,292,5,12,null,290,2231,0
+1790447050965,323,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,10,https://blazedemo.com/purchase.php,320,0,0
+1790447040009,323,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,10,null,320,10957,0
+1790447051569,279,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,10,https://blazedemo.com/,275,0,0
+1790447046983,279,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,10,null,275,4586,0
+1790447052183,283,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,10,https://blazedemo.com/reserve.php,272,0,0
+1790447045210,283,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,10,null,272,6973,0
+1790447052882,303,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7357,427,5,10,https://blazedemo.com/reserve.php,300,0,0
+1790447047893,303,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7357,427,5,10,null,300,4989,0
+1790447053090,305,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,10,https://blazedemo.com/purchase.php,297,0,0
+1790447047332,305,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,10,null,297,5759,0
+1790447054474,297,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,644,5,10,https://blazedemo.com/confirmation.php,282,0,0
+1790447051288,297,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,644,5,10,null,282,3187,0
+1790447057388,302,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,643,5,8,https://blazedemo.com/confirmation.php,297,0,0
+1790447053396,302,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,643,5,8,null,297,3993,0
+1790447059144,271,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,7,https://blazedemo.com/,266,0,0
+1790447054772,271,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,7,null,266,4372,0
+1790447059548,424,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7377,429,5,7,https://blazedemo.com/reserve.php,417,0,152
+1790447051848,424,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7377,429,5,7,null,417,7701,152
+1790447059892,286,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,7,https://blazedemo.com/,281,0,0
+1790447057691,286,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,7,null,281,2201,0
+1790447062652,279,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7373,429,5,7,https://blazedemo.com/reserve.php,274,0,0
+1790447059415,279,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7373,429,5,7,null,274,3237,0
+1790447064978,472,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,7,https://blazedemo.com/purchase.php,466,0,159
+1790447052466,472,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,7,null,466,12513,159
+1790447065358,294,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7397,432,5,7,https://blazedemo.com/reserve.php,283,0,0
+1790447060178,294,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7397,432,5,7,null,283,5180,0
+1790447066901,445,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,6,https://blazedemo.com/purchase.php,433,0,161
+1790447053186,445,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,6,null,433,13718,161
+1790447068823,267,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,644,5,6,https://blazedemo.com/confirmation.php,262,0,0
+1790447065451,267,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,644,5,6,null,262,3373,0
+1790447070360,296,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,641,5,6,https://blazedemo.com/confirmation.php,293,0,0
+1790447067349,296,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,641,5,6,null,293,3013,0
+1790447070776,493,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,477,0,170
+1790447062931,493,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,5,null,477,7847,170
+1790447072461,300,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,5,https://blazedemo.com/,278,0,0
+1790447069091,300,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,5,null,278,3370,0
+1790447072802,304,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,292,0,0
+1790447059973,304,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,5,null,292,12830,0
+1790447073708,272,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,5,https://blazedemo.com/,266,0,0
+1790447070658,272,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,5,null,266,3050,0
+1790447075442,275,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,640,5,5,https://blazedemo.com/confirmation.php,269,0,0
+1790447071271,275,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,640,5,5,null,269,4172,0
+1790447077304,290,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,651,5,5,https://blazedemo.com/confirmation.php,284,0,0
+1790447073107,290,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,651,5,5,null,284,4198,0
+1790447078798,292,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,5,https://blazedemo.com/,288,0,0
+1790447075718,292,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,5,null,288,3081,0
+1790447079634,475,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,459,0,180
+1790447065652,475,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,5,null,459,13983,180
+1790447080009,295,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7373,429,5,5,https://blazedemo.com/reserve.php,282,0,0
+1790447072761,295,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7373,429,5,5,null,282,7248,0
+1790447080455,270,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,5,https://blazedemo.com/,261,0,0
+1790447077595,270,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,5,null,261,2860,0
+1790447081389,276,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,267,0,0
+1790447073980,276,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7381,430,5,5,null,267,7409,0
+1790447084179,286,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,5,https://blazedemo.com/reserve.php,276,0,0
+1790447079091,286,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,5,null,276,5087,0
+1790447085058,294,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,645,5,5,https://blazedemo.com/confirmation.php,288,0,0
+1790447080110,294,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,645,5,5,null,288,4949,0
+1790447087112,310,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,309,0,0
+1790447080725,310,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,5,null,309,6386,0
+1790447089261,297,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,288,0,0
+1790447081665,297,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,5,null,288,7597,0
+1790447089904,297,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,5,https://blazedemo.com/,293,0,0
+1790447085354,297,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,5,null,293,4551,0
+1790447092502,291,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,281,0,0
+1790447080304,291,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,5,null,281,12199,0
+1790447092992,274,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,267,0,0
+1790447087422,274,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,5,null,267,5572,0
+1790447093451,288,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,647,5,5,https://blazedemo.com/confirmation.php,282,0,0
+1790447089559,288,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,647,5,5,null,282,3893,0
+1790447095284,301,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,5,https://blazedemo.com/confirmation.php,294,0,0
+1790447092794,301,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,5,null,294,2490,0
+1790447096022,280,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,271,0,0
+1790447084465,280,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,5,null,271,11559,0
+1790447097047,290,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,5,https://blazedemo.com/reserve.php,281,0,0
+1790447090201,290,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,5,null,281,6846,0
+1790447097639,290,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,5,https://blazedemo.com/,284,0,0
+1790447095585,290,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,5,null,284,2054,0
+1790447097911,299,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,636,5,5,https://blazedemo.com/confirmation.php,294,0,0
+1790447093267,299,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,636,5,5,null,294,4645,0
+1790447098034,281,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,5,https://blazedemo.com/,278,0,0
+1790447093740,281,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,5,null,278,4294,0
+1790447099778,339,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,634,5,5,https://blazedemo.com/confirmation.php,331,0,0
+1790447096303,339,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,634,5,5,null,331,3477,0
+1790447101839,301,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,5,https://blazedemo.com/,296,0,0
+1790447098211,301,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,5,null,296,3628,0
+1790447104185,288,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,5,https://blazedemo.com/,284,0,0
+1790447100119,288,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,5,null,284,4067,0
+1790447104971,296,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,287,0,0
+1790447097929,296,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,5,null,287,7042,0
+1790447106053,294,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7373,429,5,5,https://blazedemo.com/reserve.php,284,0,0
+1790447098315,294,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7373,429,5,5,null,284,7739,0
+1790447108617,300,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7397,432,5,5,https://blazedemo.com/reserve.php,292,0,0
+1790447102140,300,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7397,432,5,5,null,292,6477,0
+1790447110501,330,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,320,0,0
+1790447104474,330,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7381,430,5,5,null,320,6027,0
+1790447111620,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,292,0,0
+1790447097337,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,5,null,292,14284,0
+1790447112497,276,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,268,0,0
+1790447106348,276,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,5,null,268,6150,0
+1790447116113,338,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,643,5,5,https://blazedemo.com/confirmation.php,331,0,0
+1790447111921,338,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,643,5,5,null,331,4192,0
+1790447116212,282,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,643,5,5,https://blazedemo.com/confirmation.php,275,0,0
+1790447112774,282,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,643,5,5,null,275,3439,0
+1790447118883,288,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,280,0,0
+1790447105267,288,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,5,null,280,13617,0
+1790447119043,270,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,5,https://blazedemo.com/,265,0,0
+1790447116452,270,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,5,null,265,2591,0
+1790447119561,283,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,275,0,0
+1790447110831,283,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,5,null,275,8731,0
+1790447121098,286,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,5,https://blazedemo.com/,283,0,0
+1790447116495,286,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,5,null,283,4603,0
+1790447121726,358,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,644,5,5,https://blazedemo.com/confirmation.php,335,0,0
+1790447119172,358,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,644,5,5,null,335,2555,0
+1790447122924,579,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,574,0,234
+1790447108917,579,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,5,null,574,14008,234
+1790447123554,282,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,634,5,5,https://blazedemo.com/confirmation.php,275,0,0
+1790447119845,282,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,634,5,5,null,275,3710,0
+1790447124479,285,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,5,https://blazedemo.com/,281,0,0
+1790447122085,285,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,5,null,281,2394,0
+1790447125653,367,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7373,429,5,5,https://blazedemo.com/reserve.php,363,0,0
+1790447121384,367,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7373,429,5,5,null,363,4270,0
+1790447127195,308,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7357,427,5,5,https://blazedemo.com/reserve.php,294,0,0
+1790447119313,308,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7357,427,5,5,null,294,7882,0
+1790447127395,311,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,638,5,5,https://blazedemo.com/confirmation.php,296,0,0
+1790447123504,311,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,638,5,5,null,296,3892,0
+1790447128065,298,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,5,https://blazedemo.com/,288,0,0
+1790447123837,298,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,5,null,288,4228,0
+1790447129833,560,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,537,0,262
+1790447124764,560,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,5,null,537,5069,262
+1790447131288,354,HTTP - Home Page,200,OK,TG06 - Soak 6-1,text,true,,4757,292,5,5,https://blazedemo.com/,338,0,0
+1790447127707,354,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,4757,292,5,5,null,338,3580,0
+1790447131951,640,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,5,5,https://blazedemo.com/reserve.php,625,0,245
+1790447128363,640,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,5,5,null,625,3587,245
+1790447133307,544,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,536,0,210
+1790447126021,544,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,5,5,null,536,7286,210
+1790447135961,309,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,301,0,0
+1790447127503,309,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,5,5,null,301,8458,0
+1790447136640,266,confirmation,200,OK,TG06 - Soak 6-3,text,true,,5780,651,5,5,https://blazedemo.com/confirmation.php,258,0,0
+1790447133851,266,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,5780,651,5,5,null,258,2789,0
+1790447138372,377,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-1,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,357,0,0
+1790447131642,377,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,7381,430,5,5,null,357,6731,0
+1790447139322,284,confirmation,200,OK,TG06 - Soak 6-4,text,true,,5780,641,5,5,https://blazedemo.com/confirmation.php,278,0,0
+1790447136270,284,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,5780,641,5,5,null,278,3053,0
+1790447139810,297,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-2,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,288,0,0
+1790447130395,297,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,6715,388,5,5,null,288,9417,0
+1790447141735,298,HTTP - Home Page,200,OK,TG06 - Soak 6-3,text,true,,4757,292,5,5,https://blazedemo.com/,296,0,0
+1790447136907,298,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,4757,292,5,5,null,296,4828,0
+1790447143103,332,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-5,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,313,0,0
+1790447132591,332,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,6715,388,5,5,null,313,10513,0
+1790447143460,336,confirmation,200,OK,TG06 - Soak 6-2,text,true,,5780,641,5,5,https://blazedemo.com/confirmation.php,326,0,0
+1790447140108,336,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,5780,641,5,5,null,326,3353,0
+1790447144406,636,HTTP - Home Page,200,OK,TG06 - Soak 6-4,text,true,,4757,292,5,5,https://blazedemo.com/,629,0,267
+1790447139607,636,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,4757,292,5,5,null,629,4799,267
+1790447147550,385,confirmation,200,OK,TG06 - Soak 6-5,text,true,,5780,644,5,5,https://blazedemo.com/confirmation.php,373,0,0
+1790447143436,385,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,5780,644,5,5,null,373,4115,0
+1790447148000,380,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-3,text,true,,7357,427,5,5,https://blazedemo.com/reserve.php,376,0,0
+1790447142033,380,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,7357,427,5,5,null,376,5968,0
+1790447148696,520,HTTP - Home Page,200,OK,TG06 - Soak 6-2,text,true,,4757,292,5,5,https://blazedemo.com/,401,0,0
+1790447143797,520,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,4757,292,5,5,null,401,4899,0
+1790447150020,282,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-4,text,true,,7373,429,5,5,https://blazedemo.com/reserve.php,267,0,0
+1790447145042,282,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,7373,429,5,5,null,267,4978,0
+1790447150421,303,HTTP - Home Page,200,OK,TG06 - Soak 6-5,text,true,,4757,292,5,5,https://blazedemo.com/,288,0,0
+1790447147936,303,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,4757,292,5,5,null,288,2485,0
+1790447152526,386,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-1,text,true,,6715,388,5,5,https://blazedemo.com/purchase.php,373,0,0
+1790447138749,386,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,6715,388,5,5,null,373,13779,0
+1790447152630,391,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-2,text,true,,7381,430,5,5,https://blazedemo.com/reserve.php,372,0,0
+1790447149216,391,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-2,,true,,7381,430,5,5,null,372,3414,0
+1790447153021,0,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,0,0
+1790447156201,316,HTTP - Reserve Flight,200,OK,TG06 - Soak 6-5,text,true,,7397,432,4,4,https://blazedemo.com/reserve.php,300,0,0
+1790447150724,316,Transaction Controller - Flight Search and Results,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-5,,true,,7397,432,4,4,null,300,5477,0
+1790447156517,0,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,0,0
+1790447156753,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-4,text,true,,6715,388,3,3,https://blazedemo.com/purchase.php,291,0,0
+1790447150302,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-4,,true,,6715,388,3,3,null,291,6452,0
+1790447157054,0,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,0,0
+1790447157491,287,confirmation,200,OK,TG06 - Soak 6-1,text,true,,5780,649,2,2,https://blazedemo.com/confirmation.php,277,0,0
+1790447152914,287,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-1,,true,,5780,649,2,2,null,277,4578,0
+1790447157780,0,Transaction Controller - Home Page,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,0,0
+1790447157743,300,HTTP - Submit Purchasetion,200,OK,TG06 - Soak 6-3,text,true,,6715,388,1,1,https://blazedemo.com/purchase.php,289,0,0
+1790447148381,300,Transaction Controller - Purchase,200,"Number of samples in transaction : 1, number of failing samples : 0",TG06 - Soak 6-3,,true,,6715,388,1,1,null,289,9363,0
+1790447158044,0,Transaction Controller - Confirmation,200,"Number of samples in transaction : 1, number of failing samples : 0",,,true,,0,0,0,0,null,0,0,0
